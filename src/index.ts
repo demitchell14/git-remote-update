@@ -13,17 +13,9 @@ const version = packageJson.version;
 
 const repo = git(repoLocation);
 
-// console.log(repo)
-
 repo.current_commit((err, commits) => {
     if (err)
         console.error(err)
     else
         console.log(commits)
 })
-
-// const repo = git.Git(repoLocation);
-
-// console.log({repo, version})
-
-console.log("I should update");
