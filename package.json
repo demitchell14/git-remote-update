@@ -17,5 +17,9 @@
     "nodemon": "^1.19.0",
     "ts-node": "^8.1.0",
     "typescript": "^3.4.5"
+  },
+  "repository": "https://github.com/demitchell14/git-remote-update.git",
+  "dependencies": {
+    "gift": "^0.10.2"
   }
 }
