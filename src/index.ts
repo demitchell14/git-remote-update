@@ -26,3 +26,4 @@ repo.current_commit((err, commits) => {
 
 // console.log({repo, version})
 
+console.log("I should update");
