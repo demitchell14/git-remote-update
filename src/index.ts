@@ -19,5 +19,3 @@ repo.current_commit((err, commits) => {
     else
         console.log(commits)
 })
-
-console.log("Just nothing");
